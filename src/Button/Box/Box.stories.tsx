@@ -59,6 +59,9 @@ const Template: ComponentStory<typeof Button.Box> = () => {
           <p>Themes</p>
           <div css={buttonBoxStyle}>
             <Button.Box size="small" theme="primaryBlack">
+              Amplify Deploy Test
+            </Button.Box>
+            <Button.Box size="small" theme="primaryBlack">
               Primary Black
             </Button.Box>
             <Button.Box size="small" theme="primaryBlue">
